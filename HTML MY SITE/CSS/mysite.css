@@ -1,0 +1,210 @@
+body{
+  margin: 0;
+  text-align: center;
+  ont-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  color: #40514E;
+  /*font-family: 'Montserrat', sans-serif;*/
+
+}
+h1{
+  /*NOTE - if we change size on google to large than h1 doesn't change if we type its size to be 90px but rest do, bcoz its not dynamic , and to do so, we can use percentage
+   like 100% which means 16px size.
+   or can use 'em'
+   OR WE CAN SAY -> 16px = 100% = 1em
+   watch css sizing*/
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  /*font-size: 562.5%;*/
+  /*color: #232320;
+  font-family: "Bogart",Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;*/
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+  /*border-top:200px;*/
+}
+h2{
+  /*font-family: 'Grechen Fuemen', cursive;*/
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+.lastdiv{
+  background-color: #66BFBF;
+  margin-bottom: 30px;
+}
+
+/*.line{
+  border: none;
+  border-top: solid;
+  border-style: dotted;
+  color: #EAF6F6;
+  width: 20%;
+  height: 1px;
+}*/
+
+div{
+  /*background-color: #EAF6F6;*/
+  position: relative;
+  padding-top: 100px;
+}
+.first{
+  background-color: #EAF6F6;
+  /*height: 200px;
+  width: 200px;*/
+  /*padding:20px;*/
+
+}
+.second{
+  /*height: 200px;
+  width: 200px;
+  background-color: red;*/
+  /*when absolute positioning is used, elements like boxes do not have even little bit of spaces in between*/
+  /*position: absolute;
+  left: 200px;*/
+}
+/*visibility is used , it left the particular space the element need , its like invisible words are written there*/
+.third{
+  /*height: 200px;
+  width: 200px;
+  background-color:yellow;*/
+  /*visibility: hidden;*/
+  /*position: absolute;
+  left: 200px;
+  top: 200px;*/
+}
+/*if we have used position as "fixed" rather than absolute than when we scroll down the web page it will appear on same corner always and never
+go out of sight unlike others elements*/
+.cloud{
+  /*display:block;*/
+  /*position: relative;*/
+  /*margin: 0 auto 0 auto;*/
+  /*top: 10px;*/
+  position: absolute;
+  left: 300px;
+}
+
+.upper-cloud{
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.mount{
+  position: relative;
+  left: 0px;
+}
+/*.kk{background-color: blue;}*/
+
+.gettouch{
+  margin: 20px auto 20px auto;
+
+}
+
+hr{
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 7px;
+  border-color: #EAF6F6;
+  /*height: 100px;*/
+  width: 5%;
+  margin-top: 110px;
+}
+
+.about{
+  width: 33.3%;
+  margin: 30px auto 40px auto;
+
+}
+
+.footer-link{
+  color:  #11999E;
+}
+
+.atrate{
+  color: #EAF6F6;
+}
+
+h3{
+  color:  #11999E;
+}
+
+.contact-me{
+  width: 50%;
+  margin: auto;
+}
+
+.programmer{
+  font-weight: normal;
+  font-size: 3.625em;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.DAD-image{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.lingual-image{
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+/*
+.code-skill{
+  clear: left;
+}
+
+.typing{
+  clear: right;
+}*/
+
+.BUTTON_BVM {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   font-size: 20px;
+   font-weight: 5;
+   padding: 20px 10px 20px 10px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_BVM:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
